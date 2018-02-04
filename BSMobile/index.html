@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>
+            BS Mobile
+        </title>
+
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+
+        <style>
+            @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+            @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+        </style>
+
+        <link rel="stylesheet" href="css/app.css">
+
+        <script src="cordova.js"></script>
+        <script type="application/javascript" src="lib/jquery.min.js"></script>    
+        <script src="js/login.js"></script>
+        <script src="xdk/init-dev.js"></script>
+    
+    </head>
+
+
+    <body>
+
+        <!--    
+        *****************
+        ***** LOGIN *****
+        *****************
+        -->
+
+        <div id="mainpage" style="height:100vh;">
+
+            <div style="height:100vh;">
+
+                <div style="display: table; height:20vh; width: 100vw;">
+                    <span style="display: table-cell; vertical-align: bottom; text-align: center;">
+                        <img src="images/logo.png">
+                    </span>  
+                </div>
+
+                <div style="display: table; height:70vh; width: 100vw;">
+
+                    <span style="display: table-cell; vertical-align: middle; text-align: center;">
+
+                        <p class="Titulos">
+                            Acesso
+                        </p>
+               
+                        <input placeholder="Utilizador" type="text" id="VUtilizador" style="width: 200px; text-align: center;">
+                        <br>
+                        <br>
+                        <input placeholder="Palavra Passe" type="password" id="VPalavraPasse" style="width: 200px; text-align: center;">
+
+                        <br>
+                        <br>             
+
+                        <a id="BMain_Entrar" class="BotoesGrandes">
+                            Entrar
+                        </a>
+
+                    </span>
+
+                </div>
+
+                <div style="display: table; height:10vh; width: 100vw;">
+                    <span style="display: table-cell; vertical-align: middle; text-align: center;" class="Titulos">
+                        BeanStalk 2018
+                    </span>                    
+                </div>
+
+            </div>
+
+        </div>
+        
+    </body>
+
+</html>

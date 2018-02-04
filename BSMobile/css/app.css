@@ -1,0 +1,111 @@
+body
+{
+    height:100vh;
+    width:100vw;    
+    overflow: hidden;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font: 14px 'Roboto', sans-serif;
+}
+
+input
+{ 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #848484; 
+    padding: 5px;
+    height: 20px;
+ } 
+
+select
+{ 
+    -webkit-border-radius: 5px; 
+    -moz-border-radius: 5px; 
+    border-radius: 5px; 
+    border: 1px solid #848484; 
+    padding: 5px;
+    height: 30px;
+ } 
+
+.Titulos
+{
+    font: 16px 'Roboto', sans-serif;
+    font-weight: bolder; 
+    color: #FCAF17;
+}
+
+.Perguntas
+{
+    font: 14px 'Roboto', sans-serif;
+    color: #FCAF17;
+}
+
+.BotoesGrandes
+{
+    width: 200px;
+    height: 20px;    
+    background-color: #FCAF17;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+    border-radius: 10px;  
+}
+
+.BotoesMedios
+{
+    width: 60px;
+    height: 15px;    
+    background-color: #FCAF17;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px; 
+    border-radius: 10px;  
+}
+
+.BotoesPequenos
+{
+    width: 30px;
+    height: 12px;    
+    background-color: #FCAF17;
+    border: none;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;    
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px; 
+    border-radius: 10px;  
+}
+
+.LinhasImpar
+{ 
+    background-color: #FCAF17;
+    color: white; 
+    width: 100%;
+    height: 40px;
+    font: 12px 'Roboto', sans-serif;    
+    line-height: 40px;  
+}
+
+.LinhasPar
+{ 
+    background-color: #AAAAAA;
+    color: black;
+    width: 100%;
+    height: 40px;
+    font: 12px 'Roboto', sans-serif;     
+    line-height: 40px;
+}

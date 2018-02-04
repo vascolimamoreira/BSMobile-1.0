@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+
+        <title>
+            BS Mobile
+        </title>
+
+        <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+
+        <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=no">
+
+        <style>
+            @-ms-viewport { width: 100vw ; min-zoom: 100% ; zoom: 100% ; }          @viewport { width: 100vw ; min-zoom: 100% zoom: 100% ; }
+            @-ms-viewport { user-zoom: fixed ; min-zoom: 100% ; }                   @viewport { user-zoom: fixed ; min-zoom: 100% ; }
+        </style>
+
+        <link rel="stylesheet" href="css/app.css">
+
+        <script src="cordova.js"></script>
+        <script type="application/javascript" src="lib/jquery.min.js"></script>    
+        <script src="js/app.js"></script>
+        <script src="js/menu.js"></script>
+        <script src="xdk/init-dev.js"></script>
+
+    </head>
+
+
+    <body>
+
+        <!--
+        ****************
+        ***** MENU *****
+        ****************
+        -->
+
+        <div id="menu" style="height: 100vh;">       
+
+            <div style="height:100vh;">
+
+                <div style="display: table; height:20vh; width: 100vw;">
+                    <span style="display: table-cell; vertical-align: bottom; text-align: center;">
+                        <img src="images/logo.png">
+                    </span>  
+                </div>
+
+                <div style="display: table; height:70vh; width: 100vw;">
+
+                     <span style="display: table-cell; vertical-align: middle; text-align: center;">
+
+                        <p class="Titulos">
+                            Menu Principal
+                        </p>                   
+
+                        <br>      
+
+                        <a id="BMenu_Clientes" class="BotoesGrandes">
+                            Clientes
+                        </a>
+                         
+                        <br>
+                        <br>
+                         
+                        <a id="BMenu_Pendentes" class="BotoesGrandes">
+                            Pendentes
+                        </a>
+                         
+                        <br>
+                        <br>
+                         
+<!--
+                        <a id="BMenu_Incidentes" class="BotoesGrandes">
+                            Incidentes
+                        </a>
+                         
+                        <br>
+                        <br>                     
+-->
+                         
+                        <a id="BMenu_Sair" class="BotoesGrandes">
+                            Sair
+                        </a>
+
+                    </span>
+
+                </div>
+
+                <div style="display: table; height:10vh; width: 100vw;">
+                    <span style="display: table-cell; vertical-align: middle; text-align: center;" class="Titulos">
+                        BeanStalk 2018
+                    </span>                    
+                </div>
+
+            </div>                        
+
+        </div>
+        
+    </body>
+
+</html>
